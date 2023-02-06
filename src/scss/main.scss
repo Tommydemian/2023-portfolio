@@ -1,0 +1,103 @@
+@import './utility'; 
+@import './variables'; 
+
+@font-face {
+    font-family: 'Lato';
+    font-weight: 300;
+    src: local('Lato'),
+      url('../assets//fonts/Lato-Light.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Lato';
+    font-weight: 400;
+    src: local('Lato'),
+      url(../assets/fonts/Lato-Regular.ttf) format('truetype');
+  }
+@font-face {
+    font-family: 'Lato';
+    font-weight: 700;
+    src: local('Lato'),
+      url(../assets/fonts/Lato-Bold.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Orbitron';
+    font-weight: 400;
+    src: local('Orbitron'),
+      url(../assets/fonts/Orbitron-Regular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Orbitron';
+    font-weight: 600;
+    src: local('Orbitron'),
+      url(../assets/fonts/Orbitron-SemiBold.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Poppins';
+    font-weight: 700;
+    src: local('Poppins'),
+      url(../assets/fonts/Poppins/Poppins-Bold.ttf) format('truetype');
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: $neutral-clr-200;
+  color: $neutral-clr-800;
+  font-family: $ff-body;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
