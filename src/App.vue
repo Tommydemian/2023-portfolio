@@ -4,6 +4,12 @@
     <!-- Intro Section -->
 
     <TheIntro />
+
+    <section style="margin-block: 10em;"></section>
+
+    <TheHeader2 />
+
+    <TheIntro2 />
   
     <div class="gradient-500"></div>
   
@@ -309,11 +315,15 @@
 
 <script>
 import TheHeader from './components/TheHeader.vue';
+import TheHeader2 from './components/TheHeader2.vue';
 import TheIntro from './components/TheIntro.vue';
+import TheIntro2 from './components/TheIntro2.vue';
 export default {
   components: {
     TheHeader,
+    TheHeader2,
     TheIntro,
+    TheIntro2
   }
 }
 </script>
