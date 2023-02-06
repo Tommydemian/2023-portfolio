@@ -48,7 +48,7 @@
                     </div>
                     <!-- <a class="pt-04 block" href="project-link.com">View Project</a> -->
                     <!-- <div class="project-card__image-container"> -->
-                    <img class="project-card__image" src="assets/images/redpadelProyect1.png" alt="Redpadel-Site">
+                    <img class="project-card__image" src="" alt="Redpadel-Site">
                     <!-- </div> -->
                   </article>
                   <article>
@@ -126,7 +126,7 @@
             </div>
             <!-- <a class="pt-04 block" href="project-link.com">View Project</a> -->
             <!-- <div class="project-card__image-container"> -->
-            <img class="project-card__image" src="assets/images/redpadelProyect1.png" alt="Redpadel-Site">
+            <img class="project-card__image" src="" alt="Redpadel-Site">
             <!-- </div> -->
           </article>
   
@@ -167,7 +167,7 @@
             </div>
   
             <!-- <div class="project-card__image-container"> -->
-            <img class="project-card__image" src="assets/images/proyectapp.png" alt="Red Padel web app">
+            <img class="project-card__image" src="" alt="Red Padel web app">
             <!-- </div> -->
           </article>
   
@@ -183,7 +183,7 @@
         <h1 class="fs-terciary-heading fw-semibold underline capitalize">about me</h1>
         <h3 class="italic fs-secondary-heading ff-heading text-primary-600 padding-block-400 ">"Be unique, useful, and relentless. The world is yours"</h3>
         <div class="about-content">
-          <img src="assets/images/profile-pic.png" alt="Tomas Gil Amoedo" class="about-photo">
+          <img src="" alt="Tomas Gil Amoedo" class="about-photo">
           <div class="about-text">
             <ul class="accordion" role="list">
               <li>
